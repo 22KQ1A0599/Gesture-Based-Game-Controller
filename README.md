@@ -13,7 +13,15 @@ Python 3
 OpenCV – Computer Vision library
 Mediapipe – Hand landmark detection
 PyAutoGUI – Simulating keyboard inputs
+Installation
+Clone the repository git clone https://github.com/your-username/gesture-game-controller.git cd gesture-game-controller
+
+Install dependencies pip install opencv-python mediapipe pyautogui
+
+Ensure you have BlueStacks installed Download from: https://www.bluestacks.com Install Subway Surfers inside BlueStacks (or use Chrome Dino in your browser).
+
+Run the script python gesture_controller.py
+
 How to Play
 
 Open your game (Subway Surfers in BlueStacks or Chrome Dino in Chrome). Make sure the game window is active and focused. Use your index finger for gestures: Swipe Right → Move right Swipe Left → Move left Swipe Up → Jump Swipe Down → Roll/Duck
-
